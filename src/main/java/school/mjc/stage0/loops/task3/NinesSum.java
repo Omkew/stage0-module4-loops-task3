@@ -5,8 +5,8 @@ public class NinesSum {
         int temp = 10;
         int result = 0;
         for (int i = 0; i < lengthOfLastNumber; i++){
-            temp *= 10;
             result += temp - 1;
+            temp *= 10;
         }
         System.out.println(result);
     }
